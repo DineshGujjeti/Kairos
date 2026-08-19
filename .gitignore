@@ -1,0 +1,30 @@
+# --- Python / backend ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+*.db
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+
+# --- Data (never commit uploaded datasets or generated model artifacts) ---
+backend/data/
+*.duckdb
+
+# --- Node / frontend ---
+node_modules/
+dist/
+.vite/
+
+# --- Editor / OS ---
+.vscode/
+.idea/
+.DS_Store
+
+# --- Docker ---
+*.pid
